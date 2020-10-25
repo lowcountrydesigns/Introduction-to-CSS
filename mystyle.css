@@ -1,0 +1,139 @@
+/* this is a comment (not code)*/
+/* this is external css */
+:root{
+    --main-color: #046d64;/*variable*/
+    --second-color: #dd6d04;/*variable*/
+    --main-color-dark: #034b45;/*variable*/ 
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+/*global*/
+body{
+    font-family: 'Kaushan Script', cursive;
+}
+img{
+    width: 20%; /*this line resize the image*/
+}
+main{
+    height: 65vh;
+}
+footer{
+    height: 10vh;
+}
+/*header*/
+header{
+    background-image: url(https://www.whitebearsolutions.com/wp-content/uploads/2019/04/artificial-intelligence-blur-close-up-546819-1-4200x2100.jpg
+    );
+    height: 450px;
+    background-position: center center;
+    background-size: cover;
+}
+h1{
+        font-size: 38px;
+        color: white;
+        text-align: center;
+        text-shadow: 3px 3px black;
+        padding-top: 50px;
+}
+.title{
+        font-size: 28px;
+        color:var(--main-color);
+        text-align: center; 
+        text-shadow: 1px 1px dodgerblue;
+        margin-top: 10px;
+        font-weight: 700;
+}
+.btn{
+    background-color:#dd6d04;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+.btn:hover{
+    background-color: ghostwhite;
+    color: green;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h2{
+    margin: 10px 0 10px 0;
+    text-align: center;
+    border-bottom: 1px solid black; 
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+img{
+    display:block;
+    width: 200px;
+    height: 200px;
+    margin-top: -266px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25%;
+    border: 5px solid black;
+}
+.bio-text{
+    width: 60%;
+    margin-right:auto;
+    margin-left: auto;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* menu */
+nav{
+    background-color: var(--main-color);
+    padding:10px;
+    text-align: center;
+
+}
+
+a{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+a:hover{
+    background-color: var(--main-color-dark);
+}
+
+/*About page */
+
+.training li{
+        font-size: 18px;
+        list-style: none;   
+        margin-left: 20px;  
+        margin-top: 20px;
+        border-left: 5px solid var(--main-color);
+        padding-left: 10px;
+}
+.training li:hover{
+    border-left:5px solid var(--second-color);
+    background-color: #eeeeee;
+
+}
+.bio-text{
+    size: 33px;
+}
+
+
+
+
+
+
+
